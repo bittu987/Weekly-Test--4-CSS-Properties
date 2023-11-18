@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: #f2f2f2;
+}
+.nav_container{
+    width: 100vw;
+    height: 80px;
+    background-color: #333;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 80px;
+    color: white;
+    position: fixed;
+}
+.nav_container >ol{
+    display: flex;
+    gap: 40px;
+    color: white;
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.main_first_Container{
+    background-image: url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    height: 85vh;
+    width: 100vw;
+    background-position:center  65%;
+    background-size: cover ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+/* .main_first_Container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12.2%;
+    height: 84.5%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+} */
+.div_first_Container{
+    width: auto;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    text-align: center;
+    /* position: absolute; */
+}
+.div_first_Container h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.div_first_Container p{
+    font-size: 18px;
+    max-width: 70%; 
+}
+
+.div_first_Container a{
+    font-size: 17px;
+    padding: 12px;
+    background-color: #fff;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.main_second_Container{
+    height: 100%;
+    width: auto;
+}
+.header2{
+    width: auto;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 100px 0px 80px 0px;
+}
+.header2 h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.cards_Containers{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+div img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 15px;
+
+}
+.sub_card{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px 60px 0px;
+    gap: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+}
+div p{
+    max-width: 75%;
+    line-height: 22px;
+}
+.main_third_Container{
+    width: auto;
+    height: 140%;
+}
+ .hed3{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+div h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.para{
+    max-width:fit-content;
+    padding: 40px;
+}
+
+.para ul li {
+    padding: 2px;
+}
+.main_fourth_Container{
+    height: 500px;
+}
+.sub_fourth_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.part1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 80px 10px 10px 30px;
+}
+form{
+    padding: 2px 30px 0px 10px;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+}
+form textarea{
+    font-size: large;
+    padding: 10px;
+    
+}
+form button{
+    padding: 8px 20px 8px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+}
+.part1 p i{
+    color: #7a7a7a;
+}
