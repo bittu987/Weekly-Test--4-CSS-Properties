@@ -2,10 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 body {
     background: #f2f2f2;
+    font-family: "Poppins", sans-serif;
 }
 .nav_container{
     width: 100vw;
@@ -81,6 +81,7 @@ a{
     border: 2px solid #fff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
 .main_second_Container{
     height: 100%;
     width: auto;
@@ -126,7 +127,7 @@ div img{
     border-radius: 5px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
 }
-div p{
+.sub_card p{
     max-width: 75%;
     line-height: 22px;
 }
@@ -144,6 +145,7 @@ div p{
     gap: 5px;
     margin-top: 20px;
 }
+
 div h1{
     font-size: 2rem;
     font-weight: bolder;
@@ -151,6 +153,9 @@ div h1{
 .para{
     max-width:fit-content;
     padding: 40px;
+}
+.para ul{
+    padding-left: 20px;
 }
 
 .para ul li {
